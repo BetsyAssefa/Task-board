@@ -1,42 +1,51 @@
-The Task Board project is an intuitive task management application inspired by Kanban principles, enabling users to efficiently organize and monitor their tasks. This tool was created to provide an interactive way for users to add tasks, transition them through various stages of completion, and use visual indicators like color coding to highlight approaching deadlines.
+# Task Board
 
-Developed to strengthen my proficiency with third-party APIs such as jQuery UI and Day.js, the app also enhances my skills in JavaScript DOM manipulation and localStorage management. 
+## Description
+Task Board is a project management application that allows team members to manage tasks effectively. Users can add tasks with deadlines, track their progress, and organize them in a user-friendly interface. This application leverages jQuery UI for interactivity and Day.js for date management.
 
-This project addresses the challenge of task organization and progress tracking, empowering users to manage their to-do lists visually with seamless drag-and-drop functionality.
+## Features
+- **Task Management**: Add, delete, and update tasks.
+- **Progress Tracking**: Organize tasks in columns representing their current state: Not Yet Started, In Progress, and Completed.
+- **Color Coding**: Tasks are color-coded based on their deadline status (yellow for nearing deadlines and red for overdue tasks).
+- **Local Storage**: Tasks persist across page refreshes using localStorage.
+- **Drag and Drop**: Easily move tasks between columns using drag-and-drop functionality.
 
-Main Features:
-Create new tasks by entering a title, description, and due date.
-View tasks organized into three categories: "To Do," "In Progress," and "Done."
-Easily move tasks between columns using drag-and-drop functionality to reflect their status.
+## User Story
+AS A project team member with multiple tasks to organize  
+I WANT a task board  
+SO THAT I can add individual project tasks, manage their state of progress, and track overall project progress accordingly.
 
+## Acceptance Criteria
+- The task board displays tasks in columns representing their progress state.
+- Each task is color-coded based on its deadline status.
+- Users can enter a new task's title, description, and deadline in a modal dialog.
+- Saved tasks persist in localStorage.
+- Tasks can be dragged to different progress columns and will retain their state after refreshing.
+- Tasks can be deleted and will not return upon refreshing.
 
-Tasks are visually highlighted with color coding: yellow indicates upcoming deadlines, while red signifies overdue tasks.
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- jQuery
+- jQuery UI
+- Day.js
 
-
-All tasks are saved in localStorage, ensuring they remain accessible even after the page is refreshed.
-
-To set up and run this project on your local machine, follow these steps:
-
-Clone the repository to your device:
-Copy code 
+## Installation
+1. Clone the repository:
+2. 
 git clone https://github.com/BetsyAssefa/Task-board.git
 
-
-Change to the project directory:
-cd task-board
-Open the project in your preferred code editor (such as VS Code).
-Launch index.html in your web browser to start using the Task Board application.
 Usage
+Click the "Add Task" button to open the modal dialog.
+Enter the task details and click "Save Task" to add it to the board.
+Drag tasks between columns to update their progress.
+Click the delete button on a task to remove it from the board.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Acknowledgments
+Thanks to my instructors and my classmates for contributing ideas and support.
 
 
-The Task Board application allows you to manage tasks effectively, move them through different stages, and keep track of deadlines.
-
-Click the "Add Task" button to bring up the task creation modal.
-Enter the task details, including the title, description, and due date, then click "Save Task."
-
-
-Your new task will appear in the "To Do" column.
-Use drag-and-drop to move tasks between the "To Do," "In Progress," and "Done" columns to reflect their current status.
-
-
-All tasks are stored in localStorage, ensuring they remain visible even after refreshing the page.
