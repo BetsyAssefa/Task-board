@@ -33,7 +33,7 @@ SO THAT I can add individual project tasks, manage their state of progress, and 
 
 ## Installation
 1. Clone the repository:
-2. 
+   
 git clone https://github.com/BetsyAssefa/Task-board.git
 
 Usage
